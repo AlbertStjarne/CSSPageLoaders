@@ -18,6 +18,22 @@ body {
   min-height: 100vh;
 }
 
+.start {
+  text-align: center;
+  width: 90%;
+}
+
+.start h1 {
+  font-size: 36px;
+  margin-bottom: 0.8rem;
+}
+
+.start p {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
 .main {
   text-align: center;
   width: 90%;
@@ -44,6 +60,7 @@ body {
   border-radius: 5px;
   padding: 10px 20px;
   margin-top: 15px;
+  font-size: 1.5rem;
 }
 
 .btn:hover {

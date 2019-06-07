@@ -7,7 +7,7 @@ body {
   font-family: "montserrat", sans-serif;
 }
 
-.loading {
+.loader {
   width: 200px;
   height: 200px;
   box-sizing: border-box;
@@ -18,8 +18,8 @@ body {
 
 }
 
-.loading::before, 
-.loading::after {
+.loader::before, 
+.loader::after {
   content: '';
   width: 200px;
   height: 200px;
@@ -30,17 +30,17 @@ body {
   border-radius: 50%;
 }
 
-.loading::before {
+.loader::before {
   border-top: 10px solid #e67e22;
   transform: rotate(120deg);
 }
 
-.loading::after {
+.loader::after {
   border-top: 10px solid #3498db;
   transform: rotate(240deg);
 }
 
-.loading span {
+.loader span {
   position: absolute;
   width: 200px;
   height: 200px;
@@ -49,6 +49,17 @@ body {
   line-height: 200px;
   animation: a2 2s linear infinite;
 }
+
+.main p {
+  font-size: 20px;
+  color: #bdc3c7;
+}
+
+.btn {
+  background: #e67e22;
+  color: #ecf0f1;
+}
+
 
 @keyframes a1 {
   to {

@@ -2,7 +2,7 @@ body {
   background: #333;
 }
 
-.middle {
+.loader {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -33,6 +33,15 @@ body {
 .bar7 { animation-delay: 0.7s; }
 
 .bar8 { animation-delay: 0.8s; }
+
+.main p {
+  font-size: 20px;
+  color: #2ecc71;
+}
+
+.btn {
+  background: #2ecc71;  
+}
 
 @keyframes loading {
   0% {

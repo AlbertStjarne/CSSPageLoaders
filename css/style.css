@@ -78,3 +78,9 @@ body {
 .btn6 {
   background: #2ecc71;
 }
+
+.btn7 {
+  background: #d2dae2;
+  color: #1e272e;
+  border:1px solid #1e272e;
+}

@@ -1,8 +1,8 @@
 body {
-  background: #2980b9;
+  background: #1e272e;
 }
 
-.loading {
+.loader {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -15,7 +15,7 @@ body {
 .obj {
   width: 6px;
   height: 40px;
-  background: #fff;
+  background: #d2dae2;
   margin: 0 3px;
   border-radius: 10px;
   animation: loading 0.8s infinite;
@@ -28,6 +28,19 @@ body {
 .obj:nth-child(6) { animation-delay: 0.5s; }
 .obj:nth-child(7) { animation-delay: 0.6s; }
 .obj:nth-child(8) { animation-delay: 0.7s; }
+
+.main h1 {
+  color: #d2dae2;
+}
+.main p {
+  font-size: 20px;
+  color: #d2dae2;
+}
+
+.btn {
+  background: #d2dae2;
+  color: #1e272e;
+}
 
 @keyframes loading {
   0% {

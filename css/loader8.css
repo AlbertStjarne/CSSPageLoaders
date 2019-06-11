@@ -2,7 +2,7 @@ body {
   background: #e55039;
 }
 
-.loading {
+.loader {
   width: 200px;
   height: 200px;
   position: absolute;
@@ -12,7 +12,7 @@ body {
   overflow: hidden;
 }
 
-.loading .box {
+.loader .box {
   border-radius: 50%;
   border-left: 4px solid;
   border-right: 4px solid;
@@ -25,33 +25,40 @@ body {
   animation: rotate 2s infinite;
 }
 
-.loading .box1 {
+.loader .box1 {
   border-color: #4a69bd;
   width: 120px;
   height: 120px;
 }
 
-.loading .box2 {
+.loader .box2 {
   border-color: #f6b93b;
   width: 100px;
   height: 100px;
   animation-delay: 0.2s;
   
 }
-.loading .box3 {
+.loader .box3 {
   border-color: #2ecc71;
   width: 80px;
   height: 80px;
   animation-delay: 0.4s;
   
 }
-.loading .box4 {
+.loader .box4 {
   border-color: #34495e;
   width: 60px;
   height: 60px;
   animation-delay: 0.6s;
 
 }
+
+
+.btn {
+  background: #2ecc71;
+  color: #34495e;
+}
+
 
 @keyframes rotate {
   0% {

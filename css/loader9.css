@@ -2,7 +2,7 @@ body {
   background: #333;
 }
 
-.loading {
+.loader {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -44,6 +44,17 @@ body {
 .c5:before {
   animation-delay: 0.4s;
 }
+
+
+.main p {
+  color: #3498db;
+}
+
+.btn {
+  background: #3498db;
+  color: #333;
+}
+
 
 @keyframes c {
   100% {

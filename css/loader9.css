@@ -29,6 +29,22 @@ body {
   animation: c 1s infinite;
 }
 
+.c2:before {
+  animation-delay: 0.1s;
+}
+
+.c3:before {
+  animation-delay: 0.2s;
+}
+
+.c4:before {
+  animation-delay: 0.3s;
+}
+
+.c5:before {
+  animation-delay: 0.4s;
+}
+
 @keyframes c {
   100% {
     width: 0;

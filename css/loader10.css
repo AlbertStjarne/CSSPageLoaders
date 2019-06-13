@@ -2,7 +2,7 @@ body {
   background: #313131;
 }
 
-.center {
+.loader {
   top: 50%;
   left: 50%;
   position: absolute;
@@ -29,6 +29,17 @@ body {
 .c2 {
   animation-delay: -1s;
 }
+
+
+.main p {
+  color: #e74c3c;
+}
+
+.btn {
+  background: #e74c3c;
+  color: #313131;
+}
+
 
 @keyframes c {
   0%, 100% {
